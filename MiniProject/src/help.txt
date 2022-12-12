@@ -1,0 +1,21 @@
+------------Helping   Commands-----------------------------------------------------
+-createtable <recordtype> for creating table in sql.
+-add <recordtype> for adding data into record.
+-update <recordtype> <ID> <attribute> <value> for updating data in record.
+-updateInBulk <recordtype> for updating two or more attributes in record.
+-delete <recordtype> <ID> for deleting tupples from record.
+-print <recordtype> for printing whole data of record.
+-search <recordtype> <attribute> <value> for searching a data from record.
+-h for printing help
+------------ <recordtype> ---------------------------------------------------------
+-m for Mobile
+-c for Customer
+-e for Employee
+------------- <IDs> ---------------------------------------------------------------
+'id' for Mobile
+'empid' for Employee
+'purchaseno' for Customer
+-----------------------------------------------------------------------------------
+Example:
+"java -jar MiniProject.jar -update -m 1 price 125000" 
+-----------------------------------------------------------------------------------
