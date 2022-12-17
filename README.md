@@ -3,6 +3,7 @@ This project has two main modules:
 1. Mobile Phone Administration 
 2. Customer Admionistration
 
+
 1. Mobile Phone Administration 
 
 It provides the user to maintain the Mobile Phone Details Like 
