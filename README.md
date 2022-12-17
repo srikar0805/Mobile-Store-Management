@@ -1,7 +1,7 @@
 ﻿# Mobile-Store-Management
 This project has two main modules:
-1. Mobile Phone Administration 
-2. Customer Admionistration
+a. Mobile Phone Administration 
+b. Customer Admionistration
 
 
 1. Mobile Phone Administration 
