@@ -13,7 +13,7 @@ public class App {
     System.out.println();
     try {
       BufferedReader reader = new BufferedReader(
-          new FileReader("C:\\Users\\Tanmay\\Desktop\\MiniProject\\src\\help.txt"));
+          new FileReader("src\\help.txt"));
       String line;
       try {
         while ((line = reader.readLine()) != null) {
@@ -53,13 +53,13 @@ public class App {
       case "-add":
         switch (args[1]) {
           case "-m":
-            Mobile.addData("C:\\Users\\Tanmay\\Desktop\\MiniProject\\src\\Mobile\\MobileData.csv");
+            Mobile.addData("src\\Mobile\\MobileData.csv");
             break;
           case "-e":
-            Employee.addData("C:\\Users\\Tanmay\\Desktop\\MiniProject\\src\\Employee\\EmployeeData.csv");
+            Employee.addData("src\\Employee\\EmployeeData.csv");
             break;
           case "-c":
-            Customer.addData("C:\\Users\\Tanmay\\Desktop\\MiniProject\\src\\Customer\\CustomerData.csv");
+            Customer.addData("src\\Customer\\CustomerData.csv");
             break;
           default:
             System.out.println("Invalid operation\nType '-h' for help");
@@ -83,13 +83,13 @@ public class App {
       case "-updateInBulk":
         switch (args[1]) {
           case "-m":
-            Mobile.updateInBulk("C:\\Users\\Tanmay\\Desktop\\MiniProject\\src\\Mobile\\MobileUpdate.csv");
+            Mobile.updateInBulk("src\\Mobile\\MobileUpdate.csv");
             break;
           case "-e":
-            Employee.updateInBulk("C:\\Users\\Tanmay\\Desktop\\MiniProject\\src\\Employee\\EmployeeUpdate.csv");
+            Employee.updateInBulk("src\\Employee\\EmployeeUpdate.csv");
             break;
           case "-c":
-            Customer.updateInBulk("C:\\Users\\Tanmay\\Desktop\\MiniProject\\src\\Customer\\CustomerUpdate.csv");
+            Customer.updateInBulk("src\\Customer\\CustomerUpdate.csv");
             break;
           default:
             System.out.println("Invalid operation\nType '-h' for help");
